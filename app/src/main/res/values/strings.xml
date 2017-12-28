@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="main_greeting">Welcome to San Antonio!</string>
+    <string name="category_landmarks">Top Landmarks</string>
+    <string name="category_restaurants">Top Restaurants</string>
+    <string name="category_nightlife">Top Bars/Nightlife</string>
+    <string name="category_hotels">Top Hotels</string>
+</resources>
