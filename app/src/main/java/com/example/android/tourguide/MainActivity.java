@@ -46,5 +46,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(restaurantsIntent);
             }
         });
+
+        //Find the view that shows the "Nightlife" category
+        final TextView nightlife = (TextView) findViewById(R.id.nightlife);
+
+        //Set a click listener for the Nightlife view
+        nightlife.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the Nightlife View is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NightlifeActivity}
+                Intent nightlifeIntent = new Intent(MainActivity.this, NightlifeActivity.class);
+
+                // Start the new activity
+                startActivity(nightlifeIntent);
+            }
+        });
     }
 }
