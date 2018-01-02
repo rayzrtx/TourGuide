@@ -20,14 +20,30 @@ public class MainActivity extends AppCompatActivity {
 
         //Set a click listener for the Landmarks view
         landmarks.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the Numbers View is clicked on.
+            // The code in this method will be executed when the Landmarks View is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NumbersActivity}
+                // Create a new intent to open the {@link LandmarksActivity}
                 Intent landmarksIntent = new Intent(MainActivity.this, LandmarksActivity.class);
 
                 // Start the new activity
                 startActivity(landmarksIntent);
+            }
+        });
+
+        //Find the view that shows the "Restaurants" category
+        TextView restaurants = (TextView) findViewById(R.id.restaurants);
+
+        //Set a click listener for the Restaurants view
+        restaurants.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the Restaurants View is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link RestaurantsActivity}
+                Intent restaurantsIntent = new Intent(MainActivity.this, RestaurantsActivity.class);
+
+                // Start the new activity
+                startActivity(restaurantsIntent);
             }
         });
     }

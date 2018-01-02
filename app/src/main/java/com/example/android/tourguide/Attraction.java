@@ -27,6 +27,8 @@ public class Attraction {
      * @param attractionStreet is the city attraction street address
      *
      * @param attractionCityZip is the city attraction city name, state, and zip code
+     *
+     * @param backgroundImageResourceId is the resource id for the background image of the attraction
      */
     public Attraction(String attractionName, String attractionStreet, String attractionCityZip, int backgroundImageResourceId){
         mAttractionName = attractionName;
