@@ -62,5 +62,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(nightlifeIntent);
             }
         });
+
+        //Find the view that shows the "Hotels" category
+        TextView hotels = (TextView) findViewById(R.id.hotels);
+
+        //Set a click listener for the Hotels view
+        hotels.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the Hotels View is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link HotelsActivity}
+                Intent hotelsIntent = new Intent(MainActivity.this, HotelsActivity.class);
+
+                // Start the new activity
+                startActivity(hotelsIntent);
+            }
+        });
     }
 }

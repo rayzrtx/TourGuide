@@ -16,9 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LandmarksActivity" />
-        <activity android:name=".RestaurantsActivity" />
-        <activity android:name=".NightlifeActivity"></activity>
+        <activity
+            android:name=".LandmarksActivity"
+            android:label="@string/category_landmarks"
+            android:theme="@style/LandmarksTheme"/>
+        <activity
+            android:name=".RestaurantsActivity"
+            android:label="@string/category_restaurants"
+            android:theme="@style/RestaurantsTheme"/>
+        <activity
+            android:name=".NightlifeActivity"
+            android:label="@string/category_nightlife"
+            android:theme="@style/NightlifeTheme"/>
+        <activity
+            android:name=".HotelsActivity"
+            android:label="@string/category_hotels"
+            android:theme="@style/HotelsTheme">
+        </activity>
     </application>
 
 </manifest>

@@ -4,7 +4,11 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="category_landmarks">#ec525c</color>
+    <color name="category_landmarks_dark">#df2830</color>
     <color name="category_restaurants">#0c9aaa</color>
+    <color name="category_restaurants_dark">#036c7f</color>
     <color name="category_nightlife">#fc9e1c</color>
+    <color name="category_nightlife_dark">#fa7009</color>
     <color name="category_hotels">#a0c409</color>
+    <color name="category_hotels_dark">#73a202</color>
 </resources>

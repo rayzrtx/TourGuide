@@ -19,4 +19,28 @@
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
+    <style name="LandmarksTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/category_landmarks</item>
+        <item name="colorPrimaryDark">@color/category_landmarks_dark</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="RestaurantsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/category_restaurants</item>
+        <item name="colorPrimaryDark">@color/category_restaurants_dark</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="NightlifeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/category_nightlife</item>
+        <item name="colorPrimaryDark">@color/category_nightlife_dark</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="HotelsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/category_hotels</item>
+        <item name="colorPrimaryDark">@color/category_hotels_dark</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
 </resources>
